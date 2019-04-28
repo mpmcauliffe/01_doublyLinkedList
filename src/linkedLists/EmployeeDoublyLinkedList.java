@@ -107,14 +107,15 @@ public class EmployeeDoublyLinkedList {
 
     public void printList() {
         EmployeeNode current = head;
-        System.out.print("HEAD -> ");
+        System.out.print("HEAD ==> \n");
 
         while (current != null) {
+            System.out.print("=> ");
             System.out.print(current);
-            System.out.print(" < = > ");
+            System.out.print(" <=\n");
 
             current = current.getNext();
         }
-        System.out.println("null");
+        System.out.println("==> null");
     }
 }
